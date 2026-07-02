@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.test{
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background-color: var(--bg-blue);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+    background-color: var(--primary-pink);
+    color: var(--text-dark);
+    font-family: var(--font-body);
+}
+
+
+.button{
+    background-color: var(--button);
+    color: var(--text-light);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.blue-card{
+    background-color: var(--bg-blue);
+    color: var(--text-dark);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px var(--shadow);
+    
+}
+.blue-card:hover{
+    background-color: var(--bg-hover);
+    box-shadow: 0 6px 8px var(--shadow);
+    transform: scale(1.05);
+    color: var(--text-light);
+}
+
+.fade-in {
+  animation: fadeIn 1s ease;
+}
+
+.slide-up {
+  animation: slideUp 2s ease;
+}
+
+.slide-down {
+  animation: slideDown 2s ease;
+}
+
+.bounce {
+  animation: bounce 1s infinite;
+}

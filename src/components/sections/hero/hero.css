@@ -1,0 +1,40 @@
+.greeting{
+    margin: 40px, 0px;
+}
+.name{
+    margin: 10px;
+}
+.title{
+    margin: 10px;
+}
+
+.profile-image{
+    
+    width: 240px;
+    height: auto;
+    margin: 20px;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.photo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+
+.photo-container::before{
+    content: "";
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    background-color: var(--bg-hover);
+    border-radius: 50%;
+    z-index: 0;
+    
+}

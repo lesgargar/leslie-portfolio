@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+:root{
+
+    --font-titles:  "Playfair Display", serif;
+    --font-body: "Montserrat", sans-serif;
+
+    --primary-pink: #f8e3e7;
+    --bg-blue: #cfe0ef;
+    --bg-violet: #e5d6ed;
+    --bg-hover: #d8c1d1;
+    --button: #c0aec6;
+
+    --text-dark: #604734;
+    --text-light: #FFFFFF;
+
+    --shadow: #6f6f6f;
+    --success: #c2d772;
+    --warning: #ffd67a;
+}

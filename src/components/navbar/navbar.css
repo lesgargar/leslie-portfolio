@@ -1,0 +1,23 @@
+.navbar{
+    background-color: var(--bg-violet);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-button{
+    background-color: var(--text-dark);
+    color: var(--text-light);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+}   
