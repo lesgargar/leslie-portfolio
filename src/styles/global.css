@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-.test{
-  width: 100px;
-  height: 100px;
-  border-radius: 10%;
-  background-color: var(--bg-blue);
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 body{
     background-color: var(--primary-pink);
@@ -47,6 +37,18 @@ body{
     color: var(--text-light);
 }
 
+.container{
+
+    width:100%;
+
+    max-width:1200px;
+
+    margin-inline:auto;
+
+    padding-inline:2rem;
+
+}
+
 .fade-in {
   animation: fadeIn 1s ease;
 }
@@ -61,4 +63,16 @@ body{
 
 .bounce {
   animation: bounce 1s infinite;
+}
+
+.icon{
+  width: 20px;
+  height: auto;
+  
+}
+
+.icon-button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }

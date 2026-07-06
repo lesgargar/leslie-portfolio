@@ -1,0 +1,24 @@
+/*
+MOBILE < 767px
+
+TABLET - 768px
+
+LAPTOP - 1024px
+
+DESKTOP - 1280px
+*/
+
+
+@media(min-width:768px){
+/* TABLET STYLES */
+}
+
+
+@media(min-width:1024px){
+/* LAPTOP STYLES */
+}
+
+
+@media(min-width:1280px){
+/* DESKTOP STYLES */
+}

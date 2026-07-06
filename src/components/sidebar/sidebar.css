@@ -1,0 +1,36 @@
+
+
+.sidebar{
+    position:fixed;
+    top:0;
+    right:-80vw;
+    width:80vw;
+    height:100vh;
+    background:var(--bg-blue);
+    z-index:1000;
+    padding:30px;
+
+}
+
+.sidebar.open{
+    right:0;
+}
+
+.close{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+
+li{ 
+    padding: 30px;
+}
+
+a{
+    color: var(--text-dark);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+}

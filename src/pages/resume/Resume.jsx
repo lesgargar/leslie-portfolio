@@ -1,6 +1,8 @@
+import "./resume.css"
+
 export default function Resume (){
     return (
-        <div>
+        <div className="resume">
             resume
         </div>
     )

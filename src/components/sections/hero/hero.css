@@ -1,8 +1,28 @@
+.hero{
+    padding-top:var(--navbar-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+@media(min-width:768px){
+    .hero{
+        flex-direction: row;
+        text-align: left;
+    }
+}
+
 .greeting{
-    margin: 40px, 0px;
+    margin: 10px;
 }
 .name{
     margin: 10px;
+    font-family: var(--font-titles);
+    font-weight: 700;
+    font-size: 3rem;
 }
 .title{
     margin: 10px;
@@ -14,8 +34,9 @@
     height: auto;
     margin: 20px;
     position: relative;
-    z-index: 1;
+    z-index: 10;
     border-radius: 50%;
+
 }
 
 .photo-container{

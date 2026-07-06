@@ -1,15 +1,24 @@
 .navbar{
+    height:var(--navbar-height);
     background-color: var(--bg-violet);
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
 }
 
 .nav-links{
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+.link-item{
+    font-weight: 400;
+    font-size: medium ;
 }
 
 .nav-button{
