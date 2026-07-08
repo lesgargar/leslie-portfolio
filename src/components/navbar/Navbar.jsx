@@ -11,7 +11,6 @@ export default function Navbar() {
   const links = [
     { label: 'Stack', to: '/#techStack' },
     { label: 'Experience', to: '/#experience' },
-    { label: 'Projects', to: '/#projects' },
     { label: 'Contact', to: '/#contact' },
     { label: 'Resume', to: '/resume' },
   ];
@@ -19,7 +18,7 @@ export default function Navbar() {
   return (
     <>
       <div className="navbar">
-        <Link to={'/'}>LGG.</Link>
+        <Link to={'/#hero'}>LGG.</Link>
 
         {isMobile || isTablet ? (
           <button className="icon-button" onClick={() => setIsOpen(true)}>

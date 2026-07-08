@@ -1,4 +1,12 @@
 .experience{
-    margin: 80px ;
-    background-color: var(--bg-hover);
+    padding: 30px 0px;
+    border-bottom: 2px solid;
+}
+
+.project-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0px;
 }
