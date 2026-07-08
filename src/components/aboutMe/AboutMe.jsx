@@ -9,7 +9,7 @@ export default function AboutMe() {
       <div className="about-title title">
         <h2>About Me</h2>
 
-        <button className='icon-button' onClick={() => setOpen(!open)}>
+        <button className='icon-button btn' onClick={() => setOpen(!open)}>
           {open ? (
             <img
               className="icon"

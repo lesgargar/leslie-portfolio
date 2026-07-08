@@ -14,11 +14,11 @@ body{
 
 .button{
     background-color: var(--button);
-    color: var(--text-light);
+    font-size: small;
+    color: var(--text-dark);
     border: none;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 5px;
-    display: inline-block;
     cursor: pointer;
 }
 
@@ -70,14 +70,22 @@ body{
   animation: bounce 3s infinite;
 }
 
-.icon{
-  width: 20px;
-  height: auto;
-  
+.icon-button{
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+ 
 }
 
-.icon-button{
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+.icon{
+  width: 30px;
+  height: 30px;
+
 }
+

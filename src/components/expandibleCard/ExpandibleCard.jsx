@@ -1,25 +1,45 @@
 import { useState } from 'react';
 import './expandibleCard.css';
 
-export default function ExpandibleCard() {
+export default function ExpandibleCard({ project }) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="card">
-      <img src="https://picsum.photos/500/250" alt="" />
+    <div className={`card ${open && "card-open"}`}>
+      <img className="card-img" src={project.img} alt={project.label} />
 
       <div className="card-body">
-        <h2>Proyecto Ecommerce</h2>
+        <div className="card-title">
+          <h2 className="title"> {project.label}</h2>
 
-        <button onClick={() => setOpen(!open)}>
-          {open ? 'Ocultar' : 'Ver detalles'}
-        </button>
+          <button className="icon-button" onClick={() => setOpen(!open)}>
+            {open ? (
+              <img
+                className="icon"
+                src="https://res.cloudinary.com/duaoa6n1z/image/upload/v1783455939/myportfolio/minus_ciufxm.png"
+                alt="-"
+              />
+            ) : (
+              <img
+                className="icon"
+                src="https://res.cloudinary.com/duaoa6n1z/image/upload/v1783455949/myportfolio/plus_sd3xhf.png"
+                alt="+"
+              />
+            )}
+          </button>
+        </div>
 
         {open && (
           <div className="details">
-            <p>React + Node + PostgreSQL + JWT + Stripe</p>
-
-            <a href="#">Ver proyecto</a>
+            <p>{project.detail}</p>
+            <a
+              className="button"
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit
+            </a>
           </div>
         )}
       </div>
