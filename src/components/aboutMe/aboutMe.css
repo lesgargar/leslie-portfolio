@@ -1,0 +1,15 @@
+
+.about{   
+    padding: 30px 0px;
+    border-bottom: 2px solid;
+
+}
+
+.about-title{
+    display: flex;
+}
+
+
+button{
+    padding-left: 30px;
+}

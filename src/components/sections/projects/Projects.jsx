@@ -4,30 +4,7 @@ export default function Projects(){
             <div>
                 projects
             </div>
-                        <div>
-                projects
-            </div>
-                        <div>
-                projects
-            </div>
-                        <div>
-                projects
-            </div>
-                        <div>
-                projects
-            </div>
-                        <div>
-                projects
-            </div>
-                        <div>
-                projects
-            </div>
-                        <div>
-                projects
-            </div>
-                        <div>
-                projects
-            </div>
+ 
 
         </section>
     )

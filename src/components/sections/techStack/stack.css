@@ -1,0 +1,52 @@
+.stack{
+    padding: 30px 0px;
+    border-bottom: 2px solid;
+    
+}
+
+.contenedor-fondo {
+  background-image: url('https://res.cloudinary.com/duaoa6n1z/image/upload/v1783461290/myportfolio/bg-card_tjb4yo.png'); 
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+.skill-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.skill-detail:hover{
+    background-color: var(--bg-hover);
+    border-radius: 10%;
+    box-shadow: 0px 0px 20px 5px var(--bg-blue);
+}
+
+@media(min-width:768px){
+    .skills{
+        flex-direction: row;
+        text-align: left;
+    }
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+

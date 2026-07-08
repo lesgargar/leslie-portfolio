@@ -9,6 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
+    { label: 'Stack', to: '/#techStack' },
     { label: 'Experience', to: '/#experience' },
     { label: 'Projects', to: '/#projects' },
     { label: 'Contact', to: '/#contact' },

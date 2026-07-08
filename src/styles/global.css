@@ -37,6 +37,11 @@ body{
     color: var(--text-light);
 }
 
+.title{
+  font-family: var(--font-titles);
+  
+}
+
 .container{
 
     width:100%;
@@ -62,7 +67,7 @@ body{
 }
 
 .bounce {
-  animation: bounce 1s infinite;
+  animation: bounce 3s infinite;
 }
 
 .icon{
