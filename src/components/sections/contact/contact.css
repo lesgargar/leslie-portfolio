@@ -1,3 +1,42 @@
+.bottom{
+    margin-bottom:var(--navbar-height);
+}
 .contact{
-    padding: 30px;
+    margin-top: 30px;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.contact-links{
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.link{
+   width: 200px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.link:hover{
+    background-color: var(--bg-hover);
+}
+
+.link-img{
+    width: 80px;
+    height: 80px;
 }
