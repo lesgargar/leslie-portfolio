@@ -1,0 +1,9 @@
+.skills-box{
+    margin-top: 30px;
+}
+
+.skills{
+    border-top: 2px solid var(--text-dark);
+    padding: 15px 0px;
+    text-align: justify;
+}

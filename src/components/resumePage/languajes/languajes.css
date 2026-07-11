@@ -1,0 +1,21 @@
+.languajes-box{
+    margin-top: 30px;
+}
+
+.languajes{
+    border-top: 2px solid var(--text-dark);
+    padding: 15px 0px;
+    text-align: justify;
+}
+
+.languajes-list{
+    display: flex;
+}
+
+.lang-item{
+    padding: 15px 30px;
+}
+
+.lang{
+    font-weight: 700;
+}

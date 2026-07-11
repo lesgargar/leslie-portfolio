@@ -62,6 +62,7 @@ body{
   animation: slideUp 2s ease;
 }
 
+
 .slide-down {
   animation: slideDown 2s ease;
 }

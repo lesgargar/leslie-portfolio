@@ -1,0 +1,36 @@
+
+.name{
+    display: flex;
+    align-items: baseline;
+}
+
+.subtitle{
+    font-weight: 300;
+    font-size: medium;
+    padding-left: 20px;
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 10px;
+}
+
+.info-item{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.info-label{
+    
+    font-size: small;
+    min-width: 70px;
+}
+
+.info-detail{
+    
+    display: flex;
+    justify-content: start;
+    font-size: small;
+}

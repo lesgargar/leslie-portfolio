@@ -1,0 +1,38 @@
+.education-box{
+    margin-top: 30px;
+}
+
+.education{
+    border-top: 2px solid var(--text-dark);
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.education-detail{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+@media(min-width:1024px){
+.education-row{
+    display: flex;
+}
+}
+
+
+
+.education-title{
+    font-weight: 700;
+    padding: 5px;
+}
+
+.education-school{
+    padding: 5px;
+}
+
+.education-dates{
+    padding: 5px 0px;
+}

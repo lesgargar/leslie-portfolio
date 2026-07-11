@@ -7,9 +7,9 @@
 .contenedor-fondo {
   background-image: url('https://res.cloudinary.com/duaoa6n1z/image/upload/v1783461290/myportfolio/bg-card_tjb4yo.png'); 
   background-repeat: no-repeat;
-  background-size: 150px;
-  width: 150px;
-  height: 150px;
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,7 @@
 
 
 img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 
