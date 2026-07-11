@@ -1,0 +1,33 @@
+.profesional-box{
+    margin-top: 30px;
+    
+}
+
+.profesional{
+    border-top: 2px solid var(--text-dark);
+    padding: 15px 0px;
+    text-align: justify;
+    
+}
+
+.head{
+    
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.experience-box{
+    padding: 15px 0px;
+}
+
+.position{
+    font-weight: 700;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: end;
+    
+}
+

@@ -32,7 +32,7 @@ export default function ResumeTitle() {
   return (
     <>
       <div className="name">
-        <h5 className="title">Leslie Garcia</h5> <div className="subtitle">Fullstack developer</div>
+        <h6 className="title">Leslie Garcia</h6> <div className="subtitle">Fullstack developer</div>
       </div>
       <div className="contact-info">
         {contactInfo.map((item) => (

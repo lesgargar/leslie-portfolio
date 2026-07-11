@@ -33,7 +33,7 @@ const socialMedia = [
 export default function Contact(){
 
     return(
-        <section id="contact" className="container slide-up">
+        <section id="contact" className="container">
             <div className="contact">
                 <h2 className="title">Contact</h2>
 

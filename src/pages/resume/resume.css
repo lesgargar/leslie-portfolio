@@ -1,6 +1,6 @@
 .resume{
     padding:var(--navbar-height) 0px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .page{

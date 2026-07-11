@@ -4,7 +4,7 @@ const stack =[
         url:"https://res.cloudinary.com/duaoa6n1z/image/upload/v1783460362/myportfolio/techStack/js_ianht2.png"
     },
         {
-        label:"React | React Native",
+        label:"React | Native",
         url:"https://res.cloudinary.com/duaoa6n1z/image/upload/v1783460362/myportfolio/techStack/reactt_kbgtpp.png"
     },
         {
