@@ -90,3 +90,11 @@ body{
 
 }
 
+a{
+
+    color: var(--text-dark);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+
+}

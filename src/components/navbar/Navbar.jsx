@@ -15,13 +15,19 @@ export default function Navbar() {
     { label: 'Resume', to: '/resume' },
   ];
 
+  console.log({
+    isMobile,
+    isTablet,
+    isOpen
+});
+
   return (
     <>
       <div className="navbar">
-        <Link to={'/#hero'}>LGG.</Link>
+        <Link className='title' to={'/#hero'}>LGG.</Link>
 
         {isMobile || isTablet ? (
-          <button className="icon-button" onClick={() => setIsOpen(true)}>
+          <button className="icon-button" onClick={() => {console.log("clicky"); setIsOpen(true)}}>
             <img
               className="icon"
               src="https://res.cloudinary.com/duaoa6n1z/image/upload/v1783357011/myportfolio/HamburgPincel_tczzgd.png"
@@ -44,14 +50,13 @@ export default function Navbar() {
         )}
       </div>
 
-      {isMobile ||
-        (isTablet && (
+      {(isMobile || isTablet) && (
           <Sidebar
             isOpen={isOpen}
             onClose={() => setIsOpen(false)}
             items={links}
           />
-        ))}
+        )}
     </>
   );
 }

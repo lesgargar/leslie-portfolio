@@ -4,7 +4,7 @@ import './sidebar.css';
 export default function Sidebar({ isOpen, onClose, items }) {
   return (
     <>
-      <aside className={`sidebar ${isOpen? "open slide-down":""}`}>
+      <aside className={`sidebar ${isOpen? "open slide-down":""}`} >
         <button className="icon-button close" onClick={onClose}>
           <img
             className="icon"
