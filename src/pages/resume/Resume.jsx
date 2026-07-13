@@ -1,3 +1,4 @@
+import DownloadResume from "../../components/resumePage/download-cv/DownloadResume"
 import Education from "../../components/resumePage/education/Education"
 import Languajes from "../../components/resumePage/languajes/Languajes"
 import ProfesionalExperience from "../../components/resumePage/profesionalExp/ProfesionalExperience"
@@ -10,6 +11,7 @@ export default function Resume (){
     return (
         <div className="resume">
             <div className="container">
+                <DownloadResume/>
                 <div className="page">
                     <ResumeTitle/>
                     <Profile/>
