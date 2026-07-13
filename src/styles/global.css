@@ -11,6 +11,14 @@ body{
     font-family: var(--font-body);
 }
 
+a{
+
+    color: var(--text-dark);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+
+}
 
 .button{
     background-color: var(--button);
@@ -20,6 +28,7 @@ body{
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    margin: 8px;
 }
 
 .blue-card{
@@ -90,11 +99,3 @@ body{
 
 }
 
-a{
-
-    color: var(--text-dark);
-    text-decoration: none;
-    font-size: larger;
-    font-weight: 700;
-
-}

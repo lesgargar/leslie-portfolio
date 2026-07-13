@@ -10,7 +10,7 @@ export default function TechStack() {
           {stack.map((item) => (
             <div className='skill-detail'>
               <div key={item.label} className="contenedor-fondo ">
-                <img src={item.url} alt={item.label} />
+                <img className='bounce' src={item.url} alt={item.label} />
               </div>
               <div>{item.label}</div>
             </div>

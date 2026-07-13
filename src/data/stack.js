@@ -9,7 +9,7 @@ const stack =[
     },
         {
         label:"HTML",
-        url:"https://res.cloudinary.com/duaoa6n1z/image/upload/v1783460361/myportfolio/techStack/html_qmfrb8.png"
+        url:"https://res.cloudinary.com/duaoa6n1z/image/upload/v1783977095/myportfolio/techStack/html_jjkioz.png"
     },
         {
         label:"CSS3",
