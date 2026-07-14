@@ -5,7 +5,12 @@ export default function Profile(){
     return(
         <div className="profile-box">
             <h3 className="title">Profile</h3>
-            <div className="profile">I am a full-stack developer with experience in React, React Native, and Flask. My previous experience in administration, customer service, analysis, and problem-solving allows me to contribute precision, bilingual communication, and adaptation to dynamic environments.</div>
+            <div className="profile-text">
+                Full-Stack Developer with 2+ years of experience delivering scalable web and mobile solutions using React, React
+                Native, Flask, and SQLAlchemy. I blend technical proficiency in JavaScript, Python, SQL, and REST APIs with strong
+                analytical, problem-solving, and bilingual (English/Spanish) communication skills honed through background in
+                operations and customer service.
+            </div>
         </div>
     )
 }

@@ -16,3 +16,7 @@
 p{
     padding: 0px 20px;
 }
+
+.about-text{
+    text-align: justify;
+}
