@@ -3,17 +3,17 @@ import "./profesionalExp.css";
 const experience = [
   {
     id: 1,
-    position: "Operations Specialist & Web developer ",
+    position: " Web developer ",
     company: "Bichokun",
     dates: "Nov 2025 - Jun 2026",
     location: "Mexico",
     description: `
-        I Provided bilingual customer service and follow-up in English and Spanish, ensuring high satisfaction and retention. 
-        Managed end-to-end sales processes, including order processing, quotes, and cross-functional coordination. 
-        Redesigned and updated the menu to enhance product presentation to optimize customer experience.
-        Supported the implementation of strategic promotions designed to boost revenue and foster customer loyalty. 
-        Managed and controlled store inventory and supplies to ensure optimal stock levels and minimize waste. 
-        Developed the frontend of the website, delivering clear information of the store for users.`,
+    Developed and updated the company website using React, Tailwind CSS, and JavaScript, ensuring a seamless and
+    informative user experience. 
+    Redesigned the menu section to enhance product presentation, significantly improving overall user interface (UI)
+    and user experience (UX). 
+    Implemented promotional features aligned with business strategies to drive sales growth and boost customer loyalty.
+        `,
   },
   {
     id: 2,
@@ -21,9 +21,15 @@ const experience = [
     company: "Freelance",
     dates: "May 2024 - Apr 2025",
     location: "Remote",
-    description: `I developed mobile interfaces in React Native with TypeScript and NativeWind, according to the Figma designs in a insurance quote app. 
-        Implemented i18n in order to have multi language support for different users. 
-        I worked in an agile environment with sprints every 3-4 weeks, participating in advances reviews and new tasks planning to ensure quality delivery.`,
+    description: `
+    Developed interactive and scalable mobile interfaces with React Native and TypeScript, consistently applying
+    responsive design principles. 
+    Translated Figma designs into functional code, ensuring high visual fidelity and strict UX/UI consistency. 
+    Styled components using NativeWind (Tailwind CSS), optimizing development time and code maintainability. 
+    Integrated multi-language support (i18n) to enhance accessibility and reach a broader global user base. 
+    Collaborated within an Agile environment with 3-4-week sprints, actively participating in code reviews, functional
+    testing, and sprint planning.
+        `,
   },
   {
     id: 3,

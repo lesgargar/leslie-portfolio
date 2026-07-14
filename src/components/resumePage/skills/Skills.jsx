@@ -26,7 +26,7 @@ export default function Skills() {
   return (
     <div className="skills-box">
       <h3 className="title">Skills</h3>
-      <div className="skills">
+      <div className="skills-resume">
         {skillsList.map((skill)=>(
             <div>-{skill}</div>
         ))}

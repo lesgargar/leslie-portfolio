@@ -3,11 +3,11 @@ import "./download.css";
 const resumes = [
   {
     language: "English",
-    file: "/files/leslieG-fullstackDev-Eng.pdf",
+    file: "/files/resume-eng.pdf",
   },
   {
     language: "Español",
-    file: "/files/leslieG-fullstackDev-Esp.pdf",
+    file: "/files/resume-esp.pdf",
   },
 ];
 
